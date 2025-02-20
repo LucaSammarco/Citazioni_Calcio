@@ -22,7 +22,7 @@ if not citazione:
 
 # 📜 Formatta il tweet
 testo, autore = citazione
-tweet_text = f"“{testo}”\n- {autore}"
+tweet_text = f"{testo}\n\n- {autore}"
 
 # 🛑 Controlla il limite di 280 caratteri
 if len(tweet_text) > 280:
